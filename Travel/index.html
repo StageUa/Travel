@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+    <!-- Icons sprites-->
+    <svg style="display: none;">
+        <symbol id="instagram" viewBox="0 0 512 512">
+            <path d="m376 91h-240c-24.8125 0-45 20.1875-45 45v240c0 24.8125 20.1875 45 45 45h240c24.8125 0 45-20.1875 45-45v-240c0-24.8125-20.1875-45-45-45zm-120 270c-57.890625 0-105-47.109375-105-105s47.109375-105 105-105 105 47.109375 105 105-47.109375 105-105 105zm105-180c-16.539062 0-30-13.460938-30-30s13.460938-30 30-30 30 13.460938 30 30-13.460938 30-30 30zm0 0"/><path d="m256 181c-41.351562 0-75 33.648438-75 75s33.648438 75 75 75 75-33.648438 75-75-33.648438-75-75-75zm0 0"/><path d="m436 0h-360c-41.351562 0-76 34.648438-76 76v360c0 41.351562 34.648438 76 76 76h360c41.351562 0 76-34.648438 76-76v-360c0-41.351562-34.648438-76-76-76zm15 376c0 41.351562-33.648438 75-75 75h-240c-41.351562 0-75-33.648438-75-75v-240c0-41.351562 33.648438-75 75-75h240c41.351562 0 75 33.648438 75 75zm0 0"/>
+        </symbol>
+
+        <symbol id="twitter" viewBox="0 0 490.659 490.659">
+            <path d="M487.84,92.931c-3.262-3.567-8.514-4.494-12.8-2.261c-4.406,2.002-8.964,3.65-13.632,4.928
+        c7.28-9.316,12.777-19.897,16.213-31.211c1.513-5.693-1.876-11.535-7.569-13.048c-3.04-0.808-6.281-0.233-8.857,1.571
+        c-16.219,8.777-33.458,15.52-51.328,20.075c-36.787-34.722-92.823-39.05-134.507-10.389c-32.109,21.71-49.786,59.232-46.08,97.813
+        c-69.603-5.931-133.642-40.422-176.896-95.275c-2.222-2.688-5.584-4.168-9.067-3.989c-3.532,0.212-6.728,2.162-8.533,5.205
+        c-14.68,23.997-18.933,52.944-11.776,80.149c3.67,13.978,9.961,27.132,18.539,38.763c-3.864-1.892-7.5-4.218-10.837-6.933
+        c-4.575-3.711-11.292-3.011-15.004,1.564c-1.54,1.899-2.382,4.269-2.383,6.714c0.634,39.467,22.306,75.588,56.832,94.72
+        c-4.658-0.572-9.256-1.557-13.739-2.944c-5.641-1.697-11.59,1.5-13.287,7.141c-0.74,2.461-0.567,5.107,0.487,7.451
+        c14.985,33.567,44.943,58.084,80.811,66.133c-34.173,19.28-73.523,27.381-112.533,23.168c-5.058-0.646-9.85,2.429-11.371,7.296
+        c-1.568,4.829,0.484,10.093,4.907,12.587c47.765,28.38,102.102,43.82,157.653,44.8c53.294-0.195,105.345-16.113,149.632-45.76
+        c84.544-56.107,137.237-156.843,129.899-246.976c18.077-13.381,33.758-29.725,46.379-48.341
+        C491.587,101.802,491.114,96.488,487.84,92.931z"/>
+        </symbol>
+
+        <symbol id="facebook" viewBox="0 0 512 512">
+            <path  d="M452,0H60C26.916,0,0,26.916,0,60v392c0,33.084,26.916,60,60,60h392c33.084,0,60-26.916,60-60
+        V60C512,26.916,485.084,0,452,0z M472,452c0,11.028-8.972,20-20,20H338V309h61.79L410,247h-72v-43c0-16.975,13.025-30,30-30h41v-62
+        h-41c-50.923,0-91.978,41.25-91.978,92.174V247H216v62h60.022v163H60c-11.028,0-20-8.972-20-20V60c0-11.028,8.972-20,20-20h392
+        c11.028,0,20,8.972,20,20V452z"/>
+
+        </symbol>
+    </svg>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">                
+                <nav class="nav">
+                    <a class="nav__link" href="#">Home</a>
+                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link" href="#">Travel</a>
+                </nav>                
+            </div>
+        </div>
+        <!-- Social -->
+        <div class="social">           
+            <a class="social__link" href="#" target="_blank">
+                <svg class="social__icon">
+                    <use xlink:href="#instagram"></use>
+                </svg>
+            </a>            
+            <a class="social__link" href="#" target="_blank">
+                <svg class="social__icon">
+                    <use xlink:href="#twitter"></use>
+                </svg>
+            </a>
+            <a class="social__link" href="#" target="_blank">
+                <svg class="social__icon">
+                    <use xlink:href="#facebook"></use>
+                </svg>
+            </a>
+        </div>
+    </div> <!--/.header-->
+
+    <!-- Intro -->
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">               
+                <h1 class="intro__title">Business Travel</h1>                
+                
+                <h3 class="intro__subtitle">For entrepreneurs and freelancers</h3>
+            
+                <a class="btn" href="#">MORE INFO</a>
+                
+            </div>
+        </div>
+    </div> <!--/.intro-->
+
+    <!-- About us -->
+        <div class="container">
+            <div class="about__content">
+                <div class="about__leftside">
+                    <div class="about__title">
+                        <h3>About us</h3>
+                    </div>
+                    <div class="about__subtitle">
+                        <h1>WE WILL TURN YOUR WORK INTO
+                        AN EXCITING JOURNEY.</h1>
+                    </div>
+                    <div class="about__subscribe">
+                        <p class="about__subscribe__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore 
+                            magna aliqua. Faucibus purus in massa tempor nec 
+                            feugiat nisl pretium fusce. Ac turpis egestas integer eget.
+                            Felis bibendum ut tristique et egestas quis ipsu. 
+                        </p>
+
+                        <p class="about__subscribe__text">
+                            sa massa ultricies mi quis hendrerit dolor magna. Facilisis 
+                            leo vel fringilla est ullamcorper eget nulla facilisi etiam. 
+                            Lectus arcu bibendum at varius. In massa tempor nec 
+                            feugiat nisl. Mattis ullamcorper velit sed ullamcorper 
+                            morbi tincidunt ornare massa eget. Adipiscing elit ut 
+                            aliquam purus. Nunc pulvinar sapien et ligula ullam
+                        </p>
+                    </div>
+                    <div class="about__btn ">
+                        <a class="btn btn--red" href="#">MORE INFO</a>
+                    </div>
+                </div> <!--/.about__leftside-->
+
+                    <div class="about__photo">
+                        <img class="about__img" src="images/about us/Travel.png" alt="">
+                    </div>
+                
+            </div> <!--/.about__content-->
+        </div> <!--/.container-->
+
+    <!-- Photos -->
+    <div class="photos">
+        <div class="container">
+            <div class="photos__content">
+                <div class="photos__title">
+                    <h1 class="photos__h1">PHOTOS OF OUR TRAVELS</h1>                        
+                    <h3 class="photos__h3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore</h3>
+                </div>
+                <div class="photos__inner">
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel.png" alt="">                        
+                    </div>
+                    
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel2.png" alt="">                        
+                    </div>
+
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel3.png" alt="">                        
+                    </div>
+
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel4.png" alt="">                        
+                    </div>
+                    
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel5.png" alt="">                        
+                    </div>
+
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel6.png" alt="">                        
+                    </div>
+
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel7.png" alt="">                        
+                    </div>
+
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel8.png" alt="">                        
+                    </div>
+
+                    <div class="photos__items">
+                        <img class="photos__img" src="images/photos/Travel9.png" alt="">                        
+                    </div>                    
+                </div> <!--photos__inner-->
+            </div> <!--/.photos__content-->
+
+            <div class="arr">
+                <div class="arrow">
+                    <div class="arrow__right"></div>
+                    <div class="arrow__left"></div>
+                </div>
+
+                <div class="photos__pages">
+                    <div class="photos__item">
+                        01 / 05
+                    </div>
+                </div>
+
+                <div class="arrow__wrap arrow__wrap--red">
+                    <div class="arrow__right-2"></div>
+                    <div class="arrow__left-2"></div>
+                </div>
+            </div>
+
+        </div> <!--/.container-->
+    </div> <!--/.photos-->
+        
+<!-- Travel with -->
+    <div class="travelwith__content">
+        <div class="container">
+            <div>
+                <h1 class="travel__title">TRAVEL WITH OUR COMPANY</h1>
+            </div>
+            <div>
+                <h3 class="travel__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore</h3>
+            </div>
+
+            <div class="travelwith__company">
+                <div class="travelwith__item">
+                    <div class="travelwith__img">
+                        <img src="images/travel with/Travel1.png" alt="leftside">
+                    </div>
+
+                    <div class="travelwith__info">
+                        <div class="travelwith__title">
+                            <h1>COMFORTABLE PREMIUM CLASS ACCOMMODATIONS</h1>
+                        </div>
+
+                        <div class="travelwith__subtitle">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+
+                        <div class="about__btn">
+                            <a class="btn btn--red" href="#">VIEW PHOTOS</a>
+                        </div>
+                    </div>
+                </div> <!--/.travelwith__item-->
+
+                <div class="travelwith__item ">
+                    <div class="travelwith__img">
+                        <img src="images/travel with/Travel2.png" alt="rightside">
+                    </div>
+
+                    <div class="travelwith__info">
+                        <div class="travelwith__title">
+                            <h1>COMFORTABLE PREMIUM CLASS ACCOMMODATIONS</h1>
+                        </div>
+
+                        <div class="travelwith__subtitle">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+
+                        <div class="about__btn">
+                            <a class="btn btn--red" href="#">VIEW PHOTOS</a>
+                        </div>
+                    </div>
+                </div> <!--/.travelwith__item-->
+            </div>
+        </div> <!--/.conteiner-->
+    </div> <!--/.travelwith__content-->
+
+    <!-- Next tour -->
+    <div class="tour">
+        <div class="container">
+            <div class="tour__block">
+                <div class="tour__item">
+                    <div class="tour__img">
+                        <img src="images/next tour/nexttour.png" alt="next tour">
+                    </div> 
+                </div> <!--/.tour__item-->
+                <div class="tour__item">
+                    <div class="next__tour">
+                        <h3 class="tour__subtitle">Next Tour</h3>
+                    </div>
+                    <div class="tour__inner">
+                        <h1 class="tour__title">
+                        UNFORGETTABLE ADVENTURE IN FILIPINAS
+                        </h1>
+                    </div>
+                    <div class="tour__text">
+                        <p class="tour__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Faucibus purus in massa tempor nec 
+                        feugiat nisl pretium fusce. Ac turpis egestas integer eget.
+                        Felis bibendum ut tristique et egestas quis ipsu. 
+                        </p>
+                    </div>
+                    <div class="tour__text">
+                        <p class="tour__description">
+                        eo vel fringilla est ullamcorper eget nulla facilisi etiam. Lectus arcu bibendum at varius. In massa tempor nec
+                        feugiat nisl. Mattis ullamcorper velit sed ullamcorper 
+                        morbi tincidunt ornare massa eget. Adipiscing elit ut 
+                        aliquam purus. Nunc pulvinar sapien et ligula ullam 
+                        </p>
+                    </div>
+                    <div class="tour__text">        
+                        <p class="tour__description">
+                        Mauris ultrices eros in cursus turpis massa tincidunt duiut. Mauris rhoncus aenean vel elit scelerisque mauris.Pretium vulputate sapien nec sagittis aliquam malesuada. Lectus magna fringilla urna porttitor rhoncus dolor purus.  
+                        </p>
+                    </div> 
+                </div> <!--/.tour__item-->              
+            </div> <!--/.tour__block-->
+        </div> <!--/.container-->
+    </div> <!--/.tour-->
+
+    <!--Form-->
+    <div class="form">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__item">
+                    <h1 class="form__title">BOOK A DISCOUNTER TOUR</h1>
+                    <h3 class="form__subtitle">Mauris ultrices eros in cursus turpis </h3>
+                </div>
+
+                <div class="form__item">
+
+                    <form class="subscribe" action="/" method="post">
+                        
+                        <input class="subscribe__name" type="text" name="user_name" placeholder="Name">                                              
+                     
+                        <input class="subscribe__mail" type="text" name="user_mail"     placeholder="Email">
+                    
+                        <button class="subscribe__btn">Send</button>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="footer__inner">
+        <div class="container">
+            <div class="footer__links">
+                <a class="footer__items" href="#">HOME</a>
+                <a class="footer__items" href="#">ABOUT</a>
+                <a class="footer__items" href="#">GALLERY</a>
+                <a class="footer__items" href="#">TRAVEL</a>
+            </div>
+            <div class="footer__travel">Business travel</div>
+            <div class="footer__finish">Travel 2019 | All rights reserved</div>
+        </div>
+    </div>
+    </footer>  <!--/.footer--> 
+
+
+</body>
+</html>
